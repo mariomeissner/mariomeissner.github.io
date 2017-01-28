@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bootstrap' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData bootstrap
+8 silly fetchNamedPackageData bootstrap
+9 silly mapToRegistry name bootstrap
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'bootstrap',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'bootstrap',
+12 silly mapToRegistry   name: 'bootstrap',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+14 verbose request uri https://registry.npmjs.org/bootstrap
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 18:08:48
+17 verbose request id 45f85da5e0203feb
+18 http request GET https://registry.npmjs.org/bootstrap
+19 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+20 info attempt registry request try #2 at 18:09:10
+21 http request GET https://registry.npmjs.org/bootstrap
+22 http 200 https://registry.npmjs.org/bootstrap
+23 verbose headers { server: 'nginx/1.10.1',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'last-modified': 'Thu, 26 Jan 2017 17:14:07 GMT',
+23 verbose headers   etag: 'W/"588a2e5f-c599"',
+23 verbose headers   'content-encoding': 'gzip',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'content-length': '9641',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Sat, 28 Jan 2017 17:09:13 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '241',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-lhr6339-LHR',
+23 verbose headers   'x-cache': 'HIT',
+23 verbose headers   'x-cache-hits': '1',
+23 verbose headers   'x-timer': 'S1485623353.254270,VS0,VE0',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 200,
+24 silly get   { server: 'nginx/1.10.1',
+24 silly get     'content-type': 'application/json',
+24 silly get     'last-modified': 'Thu, 26 Jan 2017 17:14:07 GMT',
+24 silly get     etag: 'W/"588a2e5f-c599"',
+24 silly get     'content-encoding': 'gzip',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'content-length': '9641',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Sat, 28 Jan 2017 17:09:13 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     age: '241',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-lhr6339-LHR',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1485623353.254270,VS0,VE0',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose get saving bootstrap to C:\Users\Mario\AppData\Roaming\npm-cache\registry.npmjs.org\bootstrap\.cache.json
+26 verbose correctMkdir C:\Users\Mario\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule bootstrap@3.3.7 checking installable status
+40 silly cache add args [ 'bootstrap', null ]
+41 verbose cache add spec bootstrap
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'bootstrap',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'bootstrap',
+42 silly cache add   name: 'bootstrap',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed bootstrap@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for bootstrap
+45 info addNameTag [ 'bootstrap', 'latest' ]
+46 silly mapToRegistry name bootstrap
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'bootstrap',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'bootstrap',
+49 silly mapToRegistry   name: 'bootstrap',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+51 verbose addNameTag registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+52 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+53 silly addNameTag next cb for bootstrap with tag latest
+54 silly addNamed bootstrap@3.3.7
+55 verbose addNamed "3.3.7" is a plain semver version for bootstrap
+56 silly mapToRegistry name bootstrap
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'bootstrap',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'bootstrap',
+59 silly mapToRegistry   name: 'bootstrap',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+61 verbose addRemoteTarball https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz not in flight; adding
+62 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz',
+62 verbose addRemoteTarball   '5a389394549f23330875a3b150656574f8a9eb71' ]
+63 info retry fetch attempt 1 at 18:09:14
+64 info attempt registry request try #1 at 18:09:14
+65 http fetch GET https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+66 http fetch 200 https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+67 verbose stack Error: kill ENOSYS
+67 verbose stack     at exports._errnoException (util.js:1022:11)
+67 verbose stack     at process.kill (internal/process.js:172:13)
+67 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+67 verbose stack     at emitNone (events.js:91:20)
+67 verbose stack     at process.emit (events.js:185:7)
+67 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+67 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+67 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+68 verbose cwd C:\Users\Mario\Documents\GitHub\mariomeissner.github.io-master\mariomeissner.github.io
+69 error Windows_NT 10.0.14393
+70 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bootstrap"
+71 error node v6.9.4
+72 error npm  v3.10.10
+73 error code ENOSYS
+74 error errno ENOSYS
+75 error syscall kill
+76 error kill ENOSYS
+77 error If you need help, you may report this error at:
+77 error     <https://github.com/npm/npm/issues>
+78 verbose exit [ 1, true ]

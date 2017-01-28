@@ -1,3 +1,11 @@
-span {
-    font: italic;
+.row div{
+    background-color: lightgrey;
+    padding: 10px;
+}
+.container-fluid{
+    background: lightskyblue;
+}
+
+.row{
+    background-color: aqua
 }
