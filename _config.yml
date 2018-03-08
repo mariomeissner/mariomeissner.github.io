@@ -92,9 +92,9 @@ analytics:
 author:
   name             : "Mario Meissner"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            : ¨jmariomeissner@gmail.com"
+  bio              : "CS undergraduate interested in AI research."
+  location         : "Cantabria, Spain"
+  email            : "jmariomeissner@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -103,13 +103,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "mariomeissner"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "mariomeissner" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -259,3 +259,6 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+      toc_label: "Table of Contents"
+      toc_icon: "cog"
