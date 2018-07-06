@@ -1,9 +1,8 @@
 ---
 layout: single
 title:  "Welcome to Jekyll!"
-path: "welcome"
 date:   2018-03-06 21:15:28 +0100
-categories: jekyll update
+categories: blog
 ---
 
 # My first post bro
