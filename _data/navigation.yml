@@ -4,8 +4,8 @@ main:
     url: https://mariomeissner.github.io/
   - title: "About"
     url: /about/
-  - title: Curriculum Vitae 
-    url: https://url_to_my_curriculum.com/
+  - title: "Curriculum"
+    url: /assets/curriculum.pdf/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
