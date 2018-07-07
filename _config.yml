@@ -21,7 +21,7 @@ title                    : "Mario Meissner's Blog"
 title_separator          : "-"
 name                     : "Mario Meissner"
 description              : "A place where I dump my thoughts every once in a while."
-url                      : "https://mariomeissner.github.io/"
+url                      : "https://mariomeissner.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : mariomeissner/mariomeissner.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
