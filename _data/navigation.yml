@@ -10,7 +10,7 @@ main:
     url: /explained/
 
   - title: "Curriculum"
-    url: /assets/curriculum.pdf/
+    url: {{ site.url }}/assets/curriculum.pdf/
 
 
   - title: "About"
