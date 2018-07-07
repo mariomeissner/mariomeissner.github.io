@@ -1,11 +1,22 @@
 # main links
 main:
-  - title: "Home"
-    url: https://mariomeissner.github.io/
-  - title: "About"
-    url: /about/
+  #- title: "Home"
+  #  url: https://mariomeissner.github.io/
+
+  - title: "Blog Posts"
+    url: /blog/
+
+  - title: "Explained Series"
+    url: /explained/
+
   - title: "Curriculum"
     url: /assets/curriculum.pdf/
+
+
+  - title: "About"
+    url: /about/
+
+
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
