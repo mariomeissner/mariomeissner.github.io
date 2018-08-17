@@ -1,0 +1,1 @@
+# TODO> Write about the categorical bottleneck of intermediate representations
