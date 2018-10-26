@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "Bias versus Variance"
-categories: blog
+title:  "Bias versus Variance Explained"
+categories: blog explained
 ---
 
 # Bias vs Variance clearly explained
