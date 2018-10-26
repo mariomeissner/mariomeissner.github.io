@@ -4,8 +4,6 @@ title:  "Bias versus Variance Explained"
 categories: blog explained
 ---
 
-# Bias vs Variance clearly explained
-
 As most things in this blog will be, this entry attempts to explain bias vs variance the way that I found it to be the most clear and enlightening. 
 
 ## Fitting a model on simple data
