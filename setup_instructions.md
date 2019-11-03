@@ -8,4 +8,4 @@ sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
 ```
 
 3. Run `bundle install` and `bundle update` inside the blog directory.
-4. Execute with `bundle exec jekyll run` to get a localhost instance of the blog.
+4. Execute with `bundle exec jekyll serve` to get a localhost instance of the blog.
