@@ -4,6 +4,8 @@ title: "Deep Turing OCR: A Summary of my Bachelor's Thesis"
 categories: explained
 ---
 
+A short introduction to my final thesis project: performing OCR on hand-written Turing Machines with deep neural networks.
+
 ## The Idea
 
 I was attending a class on Models of Computation when the professor mentioned that it was very tedious to grade the final exams for this subject. One of the tasks (arguably the most important) is to write a Turing Machine by hand, capable of performing a specific operation (such as multiplication, division, exponentiation, etc). Each of these can have between 20 and 50 lines of state transition definitions, which look a bit like the following:
