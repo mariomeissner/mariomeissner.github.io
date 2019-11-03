@@ -3,22 +3,23 @@ main:
   #- title: "Home"
   #  url: https://mariomeissner.github.io/
 
-  - title: "Blog Posts"
-    url: /blog/
+  - title: "Tutorials"
+    url: /tutorials/
 
-  - title: "Explained Series"
+  - title: "Explained"
     url: /explained/
+
+  - title: "Life"
+    url: /life/
 
   - title: "CV"
     url: /assets/cv_mariomeissner.pdf
 
   - title: "Bachelor's Thesis"
-    url: /assets/thesis_mariomeissner.pdf 
+    url: /assets/thesis_mariomeissner.pdf
 
   - title: "About"
     url: /about/
-
-
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

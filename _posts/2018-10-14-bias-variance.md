@@ -1,13 +1,14 @@
 ---
 layout: single
-title:  "Bias versus Variance Explained"
+title: "Bias versus Variance Explained"
 categories: explained
 ---
 
-As most things in this blog will be, this entry attempts to explain bias vs variance the way that I found it to be the most clear and enlightening. 
+As most things in this blog will be, this entry attempts to explain bias vs variance the way that I found it to be the most clear and enlightening.
 
 ## Fitting a model on simple data
-Let's start by building an intuition and seeing the relationship between bias/variance with over/underfitting. Machine learning models have an underlying complexity level that allow them to be more or less flexible while trying to represent the dataset. Let's imagine a regression model trying to predict a dataset with just two values per row, X and Y. Y is the real valued label that we are trying to predict based on the value of X. 
+
+Let's start by building an intuition and seeing the relationship between bias/variance with over/underfitting. Machine learning models have an underlying complexity level that allow them to be more or less flexible while trying to represent the dataset. Let's imagine a regression model trying to predict a dataset with just two values per row, X and Y. Y is the real valued label that we are trying to predict based on the value of X.
 
 Let's assume that our ground truth (what we are ultimately trying to predict) looks a bit like the following:
 
@@ -25,7 +26,7 @@ The simple model is linear, it can only fit data by drawing a line. Its precisio
 
 If we take a different sample of points (of the same ground truth) and train again, it would look almost the same. The same line can explain many different samples of the ground truth.
 
-The error on this sample is quite high, since not many points are close to the line. But if we test the model with a test set, the error will be similar. The variance over different samples of the same ground truth is low. It also means the general error the model is a tradeoff to be able afford this low variance. Consequently, the bias of the model is high. 
+The error on this sample is quite high, since not many points are close to the line. But if we test the model with a test set, the error will be similar. The variance over different samples of the same ground truth is low. It also means the general error the model is a tradeoff to be able afford this low variance. Consequently, the bias of the model is high.
 
 ### Complex model
 
@@ -37,11 +38,11 @@ The error on this sample is very low, since all points sit on the line. This mea
 
 ### Perfect model?
 
-The arguably best model for this data would be one that takes a slight curve upwards, following the trend we could see in the first picture. However, in a real world dataset we don't know what the ground truth looks like, so it's extremely difficult to know what model works best. 
+The arguably best model for this data would be one that takes a slight curve upwards, following the trend we could see in the first picture. However, in a real world dataset we don't know what the ground truth looks like, so it's extremely difficult to know what model works best.
 
 ## Bias / variance tradeoff
 
-The way people usually deal with this problem when they have to build complex models is to keep an eye on both trainig error and validation/test error. 
+The way people usually deal with this problem when they have to build complex models is to keep an eye on both trainig error and validation/test error.
 
 ![pic]({{site.baseurl}}/assets/images/overfitting_range.jpg)
 
