@@ -4,6 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-I'm a Spanish/German Computer Science graduate interested in AI research, specifically deep neural networks. Currently in Japan for an internship at NTT Media Intelligence Laboratories. Emails and Twitter DM's are open!
+I'm a Spanish/German Computer Science graduate interested in AI research, specifically Deep Neural Networks. Currently in Japan for an internship at NTT Media Intelligence Laboratories. Emails and Twitter DM's are open!
 
 You can find my CV and my bachelor's Thesis in the top bar.
