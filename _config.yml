@@ -73,7 +73,7 @@ naver_site_verification:
 
 # Social Sharing
 twitter:
-  username:
+  username: "mariomeissner"
 facebook:
   username:
   app_id:
@@ -95,9 +95,9 @@ analytics:
 # Site Author
 author:
   name: "Mario Meissner"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "assets/images/profileimage.jpg"
   bio: "CS Graduate, AI Researcher and Practitioner."
-  location: "Tokyo, japan"
+  location: "Tokyo, Japan"
   email: "jmariomeissner@gmail.com"
   uri:
   home: # null (default), "absolute or relative url to link to author home"
@@ -119,7 +119,7 @@ author:
   stackoverflow: # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam: # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr:
-  twitter:
+  twitter: "mario_meissner"
   vine:
   weibo:
   xing:
