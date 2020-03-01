@@ -44,7 +44,7 @@ The model that I built performs character recognition on the individual, cropped
 ![pic]({{site.baseurl}}/assets/images/thesis_explained/networklayers.png)
 _The network layers._
 
-If you are interested in a more in depth look into the model, please feel free to have a look at my paper, linked in the top bar.
+<!-- TODO: If you are interested in a more in depth look into the model, please feel free to have a look at my paper, linked in the top bar. -->
 
 ## The Complete System
 
