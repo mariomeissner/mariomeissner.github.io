@@ -6,6 +6,8 @@ categories: technical
 
 This notebook is based on the Pytorch ["Translation with a Sequence to Sequence Network and Attention"](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) tutorial by Sean Robertson. Most of the code is taken from the original notebook, but "dissected". That means that many functions and classes will be stripped apart, and the internals analyzed. We will build a basic sequence to sequence network, while paying attention to the attention part (no pun intended).
 
+Run it yourself on [Colab](https://colab.research.google.com/github/mariomeissner/mariomeissner.github.io/blob/master/assets/notebooks/dissected-attention-network.ipynb). I edited my commentary on the mardown version (here) after exporting, so the text of the runnable notebook differs slightly.
+
 This notebook is a byproduct of my learning process. I publish it in the hopes that someone may find some of the bits useful. It focuses on exploring seemingly basic segments that I myself didn't feel comfortable with, while it may skip over other important steps. Feel free to send me suggestions of improvement or clarification!
 
 This is my first time using PyTorch coming from a Keras background, so I will comment on some of my thoughts while using it.
