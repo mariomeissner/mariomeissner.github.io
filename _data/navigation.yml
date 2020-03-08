@@ -3,10 +3,7 @@ main:
   #- title: "Home"
   #  url: https://mariomeissner.github.io/
 
-  - title: "Tutorials"
-    url: /tutorials/
-
-  - title: "technical"
+  - title: "Technical"
     url: /technical/
 
   - title: "Life"
