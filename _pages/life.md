@@ -5,4 +5,4 @@ permalink: /life/
 taxonomy: life
 ---
 
-Non-technical posts.
+Non-technical posts. Anything that I feel like talking about.

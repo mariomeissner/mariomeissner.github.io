@@ -8,7 +8,7 @@ remote_theme: "mariomeissner/minimal-mistakes"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 collections:
-  explained:
+  technical:
     output: true
     permalink: /:collection/:name/
 
@@ -258,10 +258,10 @@ defaults:
       toc_label: "Table of Contents"
       toc_icon: "cog"
 
-  # _explained
+  # _technical
   - scope:
       path: ""
-      type: explained
+      type: technical
     values:
       layout: single
       author_profile: true

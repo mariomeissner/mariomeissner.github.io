@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Deep Turing OCR: A Summary of my Bachelor's Thesis"
-categories: explained
+categories: technical
 ---
 
 A short introduction to my final thesis project: performing OCR on hand-written Turing Machines with deep neural networks.

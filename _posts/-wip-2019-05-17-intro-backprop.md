@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "A Gentle Introduction to Backpropagation in Neural Networks"
-categories: explained
+categories: technical
 ---
 
 Backpropagation is the keystone to neural networks. Without them, we wouldn't be where we are today. Yet, it is one of the concepts that usually takes more time to grasp and fully understand.

@@ -6,8 +6,8 @@ main:
   - title: "Tutorials"
     url: /tutorials/
 
-  - title: "Explained"
-    url: /explained/
+  - title: "technical"
+    url: /technical/
 
   - title: "Life"
     url: /life/
