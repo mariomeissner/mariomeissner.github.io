@@ -1,7 +1,7 @@
 # Setup instructions to run this blog locally
 
 1. Install `bundler`.
-2. Install the required libraries for `nokogiri`:
+2. Install the required libraries for `nokogiri` (I needed this when building on Ubuntu):
 
 ```bash
 sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
