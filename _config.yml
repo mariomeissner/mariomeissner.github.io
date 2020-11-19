@@ -155,6 +155,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /bundles # This is the local gems installation folder
 keep_files:
   - .git
   - .svn
