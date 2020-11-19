@@ -3,3 +3,4 @@ old/*
 vendor/*
 hidden/*
 bundles/*
+settings.json
