@@ -1,2 +1,2 @@
 # mariomeissner.github.io
-My personal blog.
+My old Jekyll-based blog. This will soon be migrated to the new `personal-website` repo.
